@@ -1,0 +1,20 @@
+{
+  "agency": "Harbour View Realty (fictional demo agency)",
+  "listings": [
+    { "ref": "HV-101", "type": "sale", "title": "2-bed apartment with sea view", "area": "Sea Point", "price": "R2 950 000", "bedrooms": 2, "bathrooms": 2, "notes": "Secure parking, pet friendly, 5 minutes to the promenade." },
+    { "ref": "HV-102", "type": "sale", "title": "3-bed family home with garden", "area": "Claremont", "price": "R4 750 000", "bedrooms": 3, "bathrooms": 2, "notes": "Pool, double garage, near good schools." },
+    { "ref": "HV-103", "type": "sale", "title": "Studio in a new development", "area": "Woodstock", "price": "R1 450 000", "bedrooms": 0, "bathrooms": 1, "notes": "Fibre ready, rooftop deck, ideal for first-time buyers." },
+    { "ref": "HV-104", "type": "sale", "title": "4-bed house with mountain views", "area": "Constantia", "price": "R8 900 000", "bedrooms": 4, "bathrooms": 3, "notes": "Large garden, solar and backup water." },
+    { "ref": "HV-201", "type": "rent", "title": "1-bed flat close to the V&A", "area": "Green Point", "price": "R16 500 per month", "bedrooms": 1, "bathrooms": 1, "notes": "Furnished option, 12-month lease, deposit of one month." },
+    { "ref": "HV-202", "type": "rent", "title": "2-bed townhouse", "area": "Rondebosch", "price": "R21 000 per month", "bedrooms": 2, "bathrooms": 2, "notes": "Pets by arrangement, garage, 12-month lease." },
+    { "ref": "HV-203", "type": "rent", "title": "3-bed house with a courtyard", "area": "Newlands", "price": "R32 000 per month", "bedrooms": 3, "bathrooms": 2, "notes": "Fibre, alarm system, available from 1 December." },
+    { "ref": "HV-204", "type": "rent", "title": "Bachelor flat", "area": "Observatory", "price": "R9 800 per month", "bedrooms": 0, "bathrooms": 1, "notes": "Walking distance to UCT shuttle, water included." }
+  ],
+  "faq": [
+    "Viewings are held Monday to Friday between 09:00 and 16:00, and last about 45 minutes.",
+    "Rentals need 3 months of payslips or bank statements, ID, and one month deposit.",
+    "Sales: the agency charges no fee to buyers. Bond origination help is available through a partner.",
+    "We do not give valuations by email. A valuer visits the property, free of charge.",
+    "Office hours: Monday to Friday 08:30 to 17:00. Phone: 021 555 0100 (fictional)."
+  ]
+}

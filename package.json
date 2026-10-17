@@ -1,0 +1,30 @@
+{
+  "name": "real-estate-lead-agent",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "description": "Lead management agent for a real estate agency: qualifies email enquiries, logs them to HubSpot, drafts replies with viewing slots and hands hot leads to a human. Runs on Trigger.dev.",
+  "type": "module",
+  "scripts": {
+    "dev": "trigger dev",
+    "deploy": "trigger deploy",
+    "local": "tsx --env-file=.env src/local.ts",
+    "setup:hubspot": "tsx --env-file=.env scripts/setup-hubspot.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.134.0",
+    "@googleapis/sheets": "^13.0.2",
+    "@trigger.dev/sdk": "4.7.4",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "trigger.dev": "4.7.4",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}
